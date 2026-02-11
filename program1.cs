@@ -3,8 +3,8 @@
 class Program1 {
   static int Main() {
     
-    int baseNumber = 0;
-    int exponent = 0;
+    int baseNumber;
+    int exponent;
     int index = 0;
     int result = 1;
 
@@ -20,5 +20,5 @@ class Program1 {
 
     Console.WriteLine(baseNumber + "^" + exponent + " = " + result);
     return 0;
-    }
+  }
 }
