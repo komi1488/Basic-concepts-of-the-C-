@@ -22,5 +22,5 @@ class Program2 {
 
     Console.WriteLine($"n = {resultNumber}");
     return 0;
-    }
+  }
 }
