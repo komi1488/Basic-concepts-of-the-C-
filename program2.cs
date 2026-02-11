@@ -2,13 +2,14 @@
 
 class Program2 {
   static int Main() {
-    Console.Write("Enter the number x (at least 3 digits): ");
     
     string input;
-    string digitsFromThird;
-    int resultNumber = 0;
-
+    Console.Write("Enter the number x (at least 3 digits): ");
     input = Console.ReadLine();
+    
+    string digitsFromThird;
+    int resultNumber;
+
     char firstDigit = input[0];
     char secondDigit = input[1];
     digitsFromThird = input.Substring(2);
