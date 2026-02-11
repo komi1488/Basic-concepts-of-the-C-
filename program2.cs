@@ -10,16 +10,17 @@ class Program2 {
     string digitsFromThird;
     int resultNumber;
 
+    digitsFromThird = input.Substring(2);
+
     char firstDigit = input[0];
     char secondDigit = input[1];
-    digitsFromThird = input.Substring(2);
+    string withoutSecond;
+    string resultStr;
     
-    string withoutSecond = firstDigit + digitsFromThird;
-
-    string resultStr = withoutSecond + secondDigit;
-
+    withoutSecond = firstDigit + digitsFromThird;
+    resultStr = withoutSecond + secondDigit;
+    
     resultNumber = int.Parse(resultStr);
-
     Console.WriteLine($"n = {resultNumber}");
     return 0;
   }
